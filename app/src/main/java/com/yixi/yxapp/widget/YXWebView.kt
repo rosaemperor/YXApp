@@ -47,6 +47,7 @@ class YXWebView : WebView{
             settings.userAgentString = settings.userAgentString + " Android"
         }
         if(Build.VERSION.SDK_INT >= 21){
+
             settings.mixedContentMode = WebSettings.MIXED_CONTENT_ALWAYS_ALLOW
         }
 
