@@ -53,10 +53,10 @@ android {
     android.applicationVariants.all {variant ->
         variant.outputs.all {
             if(variant.buildType.name.equals('debug')){
-                outputFileName = "高斯大咖-${versionName}-测试版.apk"
+                outputFileName = "高斯大咖-${versionName}-教师测试版.apk"
             }
             if(variant.buildType.name.equals('release')){
-                outputFileName = "高斯大咖-${versionName}-正式版.apk"
+                outputFileName = "高斯大咖-${versionName}-教师正式版.apk"
             }
 
         }
