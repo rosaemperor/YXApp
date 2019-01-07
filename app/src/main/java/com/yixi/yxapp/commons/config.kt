@@ -12,7 +12,7 @@ object config {
     private var WEB_UI_URL_DEV : String = "https://yixi.zht87.com/?identity=10"
 
 
-    val WXAPP_ID ="wx2d2573d29537aede"
+    val WXAPP_ID ="wx76a4fce85df49d93"
     val VIDEO_APPKey = "3ed51bd50236e77df04faabdaf514f3f"
     val VIDEO_SecretKey ="589acb614416232a2f68e189e853a88a"
 
